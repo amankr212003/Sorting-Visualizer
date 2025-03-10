@@ -1,0 +1,6 @@
+{
+  "public": ".",
+  "port": 5000,
+  "cleanUrls": true,
+  "trailingSlash": false
+} 

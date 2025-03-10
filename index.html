@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Visualizer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📊</text></svg>">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Sorting Visualizer</h1>
+            <div class="controls">
+                <div class="size-control">
+                    <label for="array-size">Size:</label>
+                    <input type="range" id="array-size" min="5" max="20" value="10">
+                    <span id="size-value">10</span>
+                </div>
+                <div class="speed-control">
+                    <label for="sorting-speed">Speed:</label>
+                    <input type="range" id="sorting-speed" min="1" max="5" value="3">
+                    <span id="speed-value">Medium</span>
+                </div>
+                <button id="new-array" class="btn"><i class="fas fa-random"></i> Randomize Array</button>
+            </div>
+            <div class="algorithm-selection">
+                <div class="select-container">
+                    <label for="algorithm-select">Choose Algorithm:</label>
+                    <select id="algorithm-select" class="algorithm-dropdown">
+                        <option value="" disabled selected>Select an algorithm</option>
+                        <option value="bubble">Bubble Sort</option>
+                        <option value="selection">Selection Sort</option>
+                        <option value="insertion">Insertion Sort</option>
+                        <option value="merge">Merge Sort</option>
+                        <option value="quick">Quick Sort</option>
+                    </select>
+                </div>
+                <button id="start-sort" class="btn start-btn"><i class="fas fa-play"></i> Start Sorting</button>
+            </div>
+        </header>
+        <main>
+            <div id="array-container" class="array-container"></div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
