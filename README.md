@@ -15,39 +15,6 @@ This project is an interactive web application for visual demonstration of vario
 - **Responsive Design**: Works well on any device and window size.
 - **Dark Mode Support**: Automatically adapts according to your system theme.
 
-## How to Use
-
-1. Access the web application (run the index.html file on a local server).
-2. Adjust the array size using the "Size" slider (5-20 elements).
-3. Adjust the sorting speed using the "Speed" slider (Extremely Slow to Extremely Fast).
-4. Click the "Randomize Array" button to generate a new random array.
-5. Select a sorting algorithm from the dropdown menu.
-6. Click "Start Sorting" to begin the visualization.
-7. Watch the visualization and gain insights.
-
-## How to Run the Project
-
-You can run this project in the following ways:
-
-### Option 1: Open directly in browser
-1. Double-click on the `index.html` file in your file explorer
-2. It will open in your default web browser
-
-### Option 2: Use a local development server
-If you have Node.js installed, you can run a simple web server:
-
-1. Open terminal and navigate to the project directory
-2. Run the following command:
-   ```
-   npx serve
-   ```
-3. Go to `http://localhost:5000` in your browser
-
-### Option 3: VS Code Live Server Extension
-If you use Visual Studio Code:
-
-1. Install the [Live Server Extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
-2. Open the `index.html` file and click the "Go Live" button in the bottom-right corner of the editor
 
 ## Technologies
 
